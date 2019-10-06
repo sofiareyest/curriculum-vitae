@@ -1,0 +1,40 @@
+.header {
+    flex-direction: row;
+    justify-content: center;
+    width: 20%;
+    height: auto;
+    max-width: 100%;
+    overflow: hidden;
+    background: $verde;
+    margin: 0 auto;
+    position: relative;
+}
+
+.imagen {
+    position: relative;
+    left: 3.5rem;
+    top: 5rem;
+}
+
+.lista {
+    display: block;
+    position: absolute;
+    top: 17rem;
+    li {
+        list-style: none;
+    }
+    a {
+        font-family: $lato;
+        text-align: left;
+        font-weight: $bold;
+        text-decoration: none;
+        padding: .5em;
+        margin: 1rem;
+        font-size: $medium;
+        text-decoration: none;
+        color: black;
+        &:hover {
+            color: black;
+        }
+    }
+}

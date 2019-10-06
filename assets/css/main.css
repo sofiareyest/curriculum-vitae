@@ -1,0 +1,119 @@
+@import url('<link href="https://fonts.googleapis.com/css?family=Lato:300,400,700,900&display=swap" rel="stylesheet">');
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+h1 {
+  font-family: "Lato", sans-serif;
+  font-weight: 900;
+  font-size: 70px;
+  text-align: center;
+  color: #071013;
+}
+
+h2 {
+  font-family: "Lato", sans-serif;
+  font-weight: 700;
+  font-size: 30px;
+}
+
+p {
+  font-family: "Lato", sans-serif;
+  font-weight: 300;
+  font-size: 16px;
+  color: #2D3047;
+}
+
+h3 {
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  color: #071013;
+}
+
+.header {
+  flex-direction: row;
+  justify-content: center;
+  width: 20%;
+  height: auto;
+  max-width: 100%;
+  overflow: hidden;
+  background: #7CEA9C;
+  margin: 0 auto;
+  position: relative;
+}
+
+.imagen {
+  position: relative;
+  left: 3.5rem;
+  top: 5rem;
+}
+
+.lista {
+  display: block;
+  position: absolute;
+  top: 17rem;
+}
+.lista li {
+  list-style: none;
+}
+.lista a {
+  font-family: "Lato", sans-serif;
+  text-align: left;
+  font-weight: 700;
+  text-decoration: none;
+  padding: 0.5em;
+  margin: 1rem;
+  font-size: 16px;
+  text-decoration: none;
+  color: black;
+}
+.lista a:hover {
+  color: black;
+}
+
+.main {
+  flex-direction: row;
+  width: 80%;
+  height: auto;
+  margin: 0 auto;
+  overflow: hidden;
+  background: #FFFFFF;
+}
+
+.principalp {
+  text-align: center;
+}
+
+.info {
+  max-width: 80%;
+  margin: 0 auto;
+}
+
+.icono {
+  padding: 1rem;
+  padding-bottom: 4rem;
+}
+
+.container {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-content: center;
+  flex-wrap: wrap;
+  height: auto;
+  width: 100%;
+  margin: 0 auto;
+}
+
+/*# sourceMappingURL=main.css.map */

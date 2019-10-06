@@ -1,0 +1,22 @@
+.main {
+    flex-direction: row;
+    width: 80%;
+    height: auto;
+    margin: 0 auto;
+    overflow: hidden;
+    background: $blanco;
+}
+
+.principalp {
+    text-align: center;
+}
+
+.info {
+    max-width: 80%;
+    margin: 0 auto;
+}
+
+.icono {
+    padding: 1rem;
+    padding-bottom: 4rem;
+}
